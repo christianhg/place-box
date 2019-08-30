@@ -7,3 +7,12 @@
 [![Build Status](https://travis-ci.org/christianhg/place-box.svg?branch=master)](https://travis-ci.org/christianhg/place-box)
 [![Dependencies](https://david-dm.org/christianhg/place-box.svg)](https://david-dm.org/christianhg/place-box)
 [![devDependencies Status](https://david-dm.org/christianhg/place-box/dev-status.svg)](https://david-dm.org/christianhg/place-box?type=dev)
+
+```js
+placeBox({
+  boundary: { width: 200, height: 100 },
+  coordinates: { x: 100, y: 50 },
+  box: { width: 50, height: 50 },
+});
+// => { left: 75, top: 25 }
+```
