@@ -1,6 +1,6 @@
 {
   "name": "place-box",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Places a box within a boundary using a set of coordinates",
   "keywords": [
     "geometry",
